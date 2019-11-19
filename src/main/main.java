@@ -4,6 +4,7 @@ public class main {
 
         Chatbot bot1 = new Chatbot();
 
-        Chatbot bot2 = new Chatbot("自由人");
+        Chatbot bot2 = new Chatbot("自由人パート２");
+
     }
 }
