@@ -6,5 +6,7 @@ public class main {
 
         Chatbot bot2 = new Chatbot("自由人パート２");
 
+        bot1.greeting();
+        bot2.greeting();
     }
 }
