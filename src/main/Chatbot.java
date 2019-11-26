@@ -14,7 +14,14 @@ public class Chatbot {
     public void greeting(){
         System.out.println("はじめまして" + name + "です，よろしくおねがいします");
     }
+
     public void setName(String name){
-        this.name = name;
+        if (name.equals("差別用語")){
+            System.out.println("禁止されています");
+        } else {
+            String old = this.name;
+            System.out.println("ボット名を" + old + "から" + name + "へと変更します");
+            this.name = name;
+        }
     }
 }
