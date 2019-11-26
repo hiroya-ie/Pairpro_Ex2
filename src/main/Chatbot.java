@@ -1,5 +1,5 @@
 public class Chatbot {
-    String name;
+    private String name;
 
     //コンストラクタ生成部
     public Chatbot() {
@@ -13,5 +13,8 @@ public class Chatbot {
 
     public void greeting(){
         System.out.println("はじめまして" + name + "です，よろしくおねがいします");
+    }
+    public void setName(String name){
+        this.name = name;
     }
 }

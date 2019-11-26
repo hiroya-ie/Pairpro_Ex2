@@ -9,7 +9,7 @@ public class main {
         bot1.greeting();
         bot2.greeting();
 
-        bot2.name = "更なる高みへ";
+        bot2.setName("さらなる高みへ");
         bot2.greeting();
 
     }
