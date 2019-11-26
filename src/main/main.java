@@ -8,5 +8,9 @@ public class main {
 
         bot1.greeting();
         bot2.greeting();
+
+        bot2.name = "さらなる高みへ";
+        bot2.greeting();
+
     }
 }
